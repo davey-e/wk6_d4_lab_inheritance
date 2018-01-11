@@ -2,9 +2,9 @@ package staff;
 
 public class Employee {
     
-    private String name;
-    private String ni;
-    private double salary;
+    protected String name;
+    protected String ni;
+    protected double salary;
     
     public Employee(String name, String ni, double salary){
         this.name = name;
