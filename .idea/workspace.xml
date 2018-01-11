@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="410a7e39-4df6-47ec-9def-e465076c65ea" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/staff/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/staff/Employee.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" afterPath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,8 +25,8 @@
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/staff/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="335">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
               <folding>
                 <element signature="e#307#308#0" expanded="true" />
                 <element signature="e#339#340#0" expanded="true" />
@@ -45,8 +44,8 @@
       <file leaf-file-name="EmployeeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/EmployeeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+            <state relative-caret-position="230">
+              <caret line="56" column="55" lean-forward="true" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#207#208#0" expanded="true" />
@@ -110,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/DirectorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#212#213#0" expanded="true" />
@@ -433,9 +432,9 @@
         <option value="$PROJECT_DIR$/src/test/java/DatabaseAdminTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DeveloperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/management/Director.java" />
-        <option value="$PROJECT_DIR$/src/test/java/EmployeeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DirectorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/staff/Employee.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EmployeeTest.java" />
       </list>
     </option>
   </component>
@@ -550,7 +549,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeTest.cantAddNegativeRaise">
+  <component name="RunManager" selected="JUnit.EmployeeTest.cantSetNameToNull">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -592,46 +591,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="DatabaseAdminTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="InheritanceLab_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DatabaseAdminTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="DeveloperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="InheritanceLab_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeveloperTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="DirectorTest.hasBudget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="InheritanceLab_test" />
@@ -652,6 +611,26 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="EmployeeTest.canSetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="InheritanceLab_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
+      <option name="METHOD_NAME" value="canSetName" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="EmployeeTest.cantAddNegativeRaise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="InheritanceLab_test" />
@@ -660,6 +639,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
       <option name="METHOD_NAME" value="cantAddNegativeRaise" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="EmployeeTest.cantSetNameToNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="InheritanceLab_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
+      <option name="METHOD_NAME" value="cantSetNameToNull" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -733,19 +732,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DatabaseAdminTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DeveloperTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DirectorTest.hasBudget" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in InheritanceLab_test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.EmployeeTest.cantAddNegativeRaise" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DirectorTest.hasBudget" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in InheritanceLab_test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeeTest.cantAddNegativeRaise" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.EmployeeTest.canSetName" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.EmployeeTest.cantSetNameToNull" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.EmployeeTest.cantAddNegativeRaise" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in InheritanceLab_test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DirectorTest.hasBudget" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DeveloperTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DatabaseAdminTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EmployeeTest.cantSetNameToNull" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.EmployeeTest.canSetName" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeeTest.cantAddNegativeRaise" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in InheritanceLab_test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DirectorTest.hasBudget" />
       </list>
     </recent_temporary>
   </component>
@@ -787,11 +786,11 @@
     <history-entry file="EmployeeTest_canPayBonus - 2018.01.11 at 15h 29m 47s.xml">
       <configuration name="EmployeeTest.canPayBonus" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeTest_canRaiseSalary - 2018.01.11 at 15h 26m 33s.xml">
-      <configuration name="EmployeeTest.canRaiseSalary" configurationId="JUnit" />
+    <history-entry file="EmployeeTest_canSetName - 2018.01.11 at 16h 00m 16s.xml">
+      <configuration name="EmployeeTest.canSetName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeTest_canRaiseSalary - 2018.01.11 at 15h 26m 51s.xml">
-      <configuration name="EmployeeTest.canRaiseSalary" configurationId="JUnit" />
+    <history-entry file="EmployeeTest_cantAddNegativeRaise - 2018.01.11 at 15h 56m 18s.xml">
+      <configuration name="EmployeeTest.cantAddNegativeRaise" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ManagerTest_getDeptName - 2018.01.11 at 15h 36m 16s.xml">
       <configuration name="ManagerTest.getDeptName" configurationId="JUnit" />
@@ -938,7 +937,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/DirectorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#212#213#0" expanded="true" />
@@ -951,8 +950,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/staff/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="335">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding>
             <element signature="e#307#308#0" expanded="true" />
             <element signature="e#339#340#0" expanded="true" />
@@ -968,8 +967,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EmployeeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        <state relative-caret-position="230">
+          <caret line="56" column="55" lean-forward="true" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#207#208#0" expanded="true" />
