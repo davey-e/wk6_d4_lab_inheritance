@@ -23,4 +23,8 @@ public class Employee {
     public double getSalary() {
         return salary;
     }
+
+    public void raiseSalary(double salary) {
+        this.salary += salary;
+    }
 }

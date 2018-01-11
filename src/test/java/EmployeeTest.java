@@ -10,7 +10,7 @@ public class EmployeeTest {
 
     @Before
     public void before(){
-        employee = new Employee("Joe Bloggs", "AB1234567C", 50000);
+        employee = new Employee("Joe Bloggs", "AB1234567C", 50000.00);
     }
 
     @Test
@@ -25,7 +25,13 @@ public class EmployeeTest {
 
     @Test
     public void hasSalary(){
-        assertEquals(50000, employee.getSalary(), 0.01);
+        assertEquals(50000.00, employee.getSalary(), 0.01);
+    }
+
+    @Test
+    public void canRaiseSalary(){
+        employee.raiseSalary(1000.00);
+        assertEquals(51000, employee.getSalary(), 0.01);
     }
 
 
