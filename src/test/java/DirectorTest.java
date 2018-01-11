@@ -17,4 +17,5 @@ public class DirectorTest {
     public void hasBudget(){
         assertEquals(100_000.00, director.getBudget(), 0.01);
     }
+
 }

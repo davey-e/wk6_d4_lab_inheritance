@@ -39,5 +39,11 @@ public class EmployeeTest {
         assertEquals(500.00, employee.payBonus(), 0.01);
     }
 
+    @Test
+    public void cantAddNegativeRaise(){
+        employee.raiseSalary(-1000.00);
+        assertEquals(50000, employee.getSalary(), 0.01);
+    }
+
 
 }
